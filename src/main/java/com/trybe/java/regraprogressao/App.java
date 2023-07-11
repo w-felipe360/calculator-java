@@ -22,6 +22,9 @@ public class App {
 
       System.out.println("Digite o peso da atividade " + index + ":");
       int height = Integer.parseInt(scanner.nextLine());
+
+      System.out.println("Digite a nota obtida para " + activity + ":");
+      String result = scanner.nextLine();
     }
   }
 }
